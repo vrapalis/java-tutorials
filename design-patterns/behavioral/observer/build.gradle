@@ -1,0 +1,3 @@
+application {
+    mainClassName 'www.vrapalis.com.designpatterns.behavioral.observer.ObserverRunner'
+}

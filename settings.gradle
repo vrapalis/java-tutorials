@@ -1,0 +1,6 @@
+rootProject.name = 'java-tutorials'
+
+include('data-structures', 'data-structures:stack')
+
+include('design-patterns', 'design-patterns:behavioral', 'design-patterns:behavioral:strategy',
+        'design-patterns:behavioral:observer')
