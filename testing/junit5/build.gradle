@@ -1,0 +1,3 @@
+application {
+    mainClassName 'www.vrapalis.com.testing.junit5.Junit5Runner'
+}

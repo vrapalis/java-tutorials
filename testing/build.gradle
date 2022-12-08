@@ -1,0 +1,9 @@
+plugins {
+    id 'com.vrapalis.www.java-application-conventions' apply false
+}
+
+subprojects {
+    apply plugin: 'com.vrapalis.www.java-application-conventions'
+
+    dependencies {}
+}
