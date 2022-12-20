@@ -1,9 +1,9 @@
 plugins {
-    id 'com.vrapalis.www.java-application-conventions' apply false
+    id "com.konigsberger.www.gradle-plugins.commons-java-plugin" apply false
 }
 
 subprojects {
-    apply plugin: 'com.vrapalis.www.java-application-conventions'
+    apply plugin: "com.konigsberger.www.gradle-plugins.commons-java-plugin"
 
     dependencies {}
 }

@@ -1,8 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+    includeBuild("../gradle-plugins")
+}
+
+
+
 rootProject.name = 'java-tutorials'
+
+include('core')
 
 include('data-structures', 'data-structures:stack')
 
 include('design-patterns', 'design-patterns:behavioral', 'design-patterns:behavioral:strategy',
         'design-patterns:behavioral:observer')
+
+include('algorithms:binary-search', 'algorithms:factorial')
 
 include('testing', 'testing:junit5')
