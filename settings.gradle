@@ -19,3 +19,5 @@ include('design-patterns', 'design-patterns:behavioral', 'design-patterns:behavi
 include('algorithms:binary-search', 'algorithms:factorial')
 
 include('testing', 'testing:junit5')
+
+include('challenges', 'challenges:math')
