@@ -1,3 +1,3 @@
 plugins {
-    id "com.konigsberger.www.gradle-plugins.commons-java-plugin"
+    id "com.konigsberger.www.gradle-plugins.commons-java-plugin" version "0.0.1"
 }

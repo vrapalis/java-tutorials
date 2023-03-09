@@ -1,5 +1,5 @@
 plugins {
-    id "com.konigsberger.www.gradle-plugins.commons-java-plugin" apply false
+    id "com.konigsberger.www.gradle-plugins.commons-java-plugin" version "0.0.1" apply false
 }
 
 subprojects {

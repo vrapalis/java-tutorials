@@ -1,11 +1,32 @@
 pluginManagement {
     repositories {
         gradlePluginPortal()
+        maven {
+            url 'https://gitlab.com/api/v4/projects/43975563/packages/maven'
+        }
+        maven {
+            url 'https://gitlab.com/api/v4/projects/43975633/packages/maven'
+        }
     }
-    includeBuild("../gradle-plugins")
 }
 
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+        maven {
+            url 'https://gitlab.com/api/v4/projects/43975196/packages/maven'
+        }
+        maven {
+            url 'https://gitlab.com/api/v4/projects/43975633/packages/maven'
+        }
+    }
 
+    versionCatalogs {
+        springBootCatalog {
+            from("com.konigsberger.www.gradle-catalogs:spring-catalog:0.0.1")
+        }
+    }
+}
 
 rootProject.name = 'java-tutorials'
 
