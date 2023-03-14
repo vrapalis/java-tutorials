@@ -32,7 +32,7 @@ rootProject.name = 'java-tutorials'
 
 include('core')
 
-include('data-structures', 'data-structures:stack')
+include('data-structures', 'data-structures:stack', 'data-structures:collections')
 
 include('design-patterns', 'design-patterns:behavioral', 'design-patterns:behavioral:strategy',
         'design-patterns:behavioral:observer')
